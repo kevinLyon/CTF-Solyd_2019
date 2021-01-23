@@ -13,4 +13,4 @@ Os arquivos coletados ou criados durante o desafio também estarão disponíveis
 ## Coletando informações
 Como qualquer Pentest seja em uma CTF ou em uma bug bounty a primeira coisa a se fazer é escanear as portas do alvo, para saber o que seu alvo esta rodando
 
-https://github.com/kevinLyon/CTF-Solyd_2019/blob/main/Come%C3%A7ando-suas-Aventuras/Imagens/nmap.jpg?raw=true
+https://github.com/kevinLyon/CTF-Solyd_2019/blob/main/Come%C3%A7ando-suas-Aventuras/Imagens/nmap.jpg? raw=true
