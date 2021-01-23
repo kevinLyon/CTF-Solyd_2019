@@ -26,9 +26,9 @@ O mesmo com o Source:
 ![html](Imagens/html.jpg)
 
 Como o site era simples de mais, sem nenhuma informação útil, decido dar uma olhada na porta 21 que no caso esta rodando um protocolo FTP.
-
 Porem isso não é tudo, como podemos ver no scan que fiz do NMAP ele nos diz que há um usuário (anonymous) 
 [Mais informações sobre usuários Anonymous](http://penta2.ufrgs.br/Roseclea/anonymous.html)
+
 ![anonymous](Imagens/anonymous.jpg)
 
 Apos nos conectarmos com o usuário anonymous encontramos um arquivo oculto contendo nossa primeira FLAG e informações muito interessantes:
@@ -44,10 +44,11 @@ __Infelizmente tive vários problemas com a gravação deste desafio a imagem a 
 Com uma breve pesquisa descobrimos que o mesmo plugin contem uma vulnerabilidade de SQL injection:
 ![exploit](Imagens/exploit.jpg)
 
-#Exploração
+# Exploração
 
 Após uma longa faze de captura de informações passamos a explorar o Exploit, onde conseguimos fazer o dump do banco de dados, junto com nossa segunda FLAG:
 [Mais informações sobre SQLmap](http://sqlmap.org/)
+
 __NOTA: A gravação da exploração também foi corrompida, a exploração completa do SQLI levou quase 4 horas, por isso há apenas algumas partes no video!__
 ![sql](Imagens/sql.jpg)
 
@@ -62,7 +63,9 @@ que nos permitira fazer um Brut force na senha do usuário ROOT, porem é algo q
 ![shadow](Imagens/shadow.jpg)
 
 Graças a uma chave RSA copiada junta com o backup conseguimos nossa tão aguardada escalação de privilégio :):
+
 [Mais sobre chave RSA](https://cloud.ibm.com/docs/ssh-keys?topic=ssh-keys-generating-and-using-ssh-keys-for-remote-host-authentication&locale=pt-BR)
+
 ![rsa](Imagens/rsa.jpg)
 
 Ai ficou fácil pegar nossa última FLAG:
