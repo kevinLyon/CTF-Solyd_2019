@@ -53,7 +53,7 @@ __NOTA: A gravação da exploração também foi corrompida, a exploração comp
 ![sql](Imagens/sql.jpg)
 
 Apos o crack da senha do estagiário conseguimos um login no site, e por sorte nosso estagiário dissídio que seria uma boa deixar a mesma senha em seu SSH, por tanto ao quebrar a hash tínhamos um login no site com permissão ADMIN e um login no SSH:
-![ssh](Imagens/SSH.jpg)
+![ssh](Imagens/ssh.jpg)
 
 Após uma breve exploração no servidor achamos varias informações e nossa terceira FLAG, faltando apenas uma:
 ![flag](Imagens/flag.jpg)
